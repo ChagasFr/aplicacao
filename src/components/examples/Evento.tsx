@@ -12,7 +12,7 @@ export default function Evento() {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center bg-black text-white gap-4 h-screen">
+        <div className="flex flex-col gap-4">
             <span className="text-3xl"><b>Valor: </b>{valor}</span>
             <div className="flex gap-4">
                 <button onClick={incrementar}>
