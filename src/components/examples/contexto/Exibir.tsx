@@ -2,7 +2,7 @@ import ContadorContexto from "@/data/contexts/ContadorContexto"
 import { useContext } from "react"
 
 export default function Exibir() {
-    const ctx: any = useContext(ContadorContexto)
+    const ctx = useContext(ContadorContexto)
 
     return (
         <div>

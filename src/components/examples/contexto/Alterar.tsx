@@ -2,7 +2,7 @@ import ContadorContexto from "@/data/contexts/ContadorContexto"
 import { useContext } from "react"
 
 export default function Alterar() {
-    const { inc, dec }: any = useContext(ContadorContexto)
+    const { inc, dec } = useContext(ContadorContexto)
 
     return (
         <div className="flex gap-5">
